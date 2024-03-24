@@ -1,0 +1,26 @@
+body{
+    background-image: url(background-update.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px; /* Adjust width as needed */
+    background-color: #f0f0f0; /* Grey background color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.main-content {
+    flex: 1; /* Take remaining space */
+    padding: 20px; /* Adjust padding as needed */
+}
